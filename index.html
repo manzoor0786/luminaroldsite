@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+ 
+      </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <img src="./image/download.jpeg" alt="" class="" style="width: 280px; height: 57px;">
+          <a class= "navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav" style="margin-left: 30% "  >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Our placements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active" style="height: 75vh" >
+            <img src="./image/bg1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block p-5 ">
+              <h1>Kerala's No.1 IT Finishing School <br>
+                100% Placement Assistance</h1>
+              
+              <p>We at LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
+              <button
+              class="btn1 "
+             
+            >
+              VIEW COURSES
+            </button>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 75vh">
+            <img src="./image/bg2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block p-5">
+              <h1>Data Science, ML & AI <br>
+                Big Data - Hadoop & Spark <br>
+                Python Data Science</h1>
+              <p >We LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep Learning and AI.</p>
+              <button
+              class="btn1 "
+            >
+              VIEW COURSES
+            </button>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <button
+          type="button"
+          class="btn1 btn-lg btn-primary rounded-5 m-2"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          
+        >
+          MODAL FORM
+        </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel" >Get Training Quote for free</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   
+                      
+                        <input
+                          type="text"
+                          placeholder="Name"
+                          class="form-control"
+                          style="border: none"
+                        />
+                        <hr />
+                        <input
+                          type="email"
+                          placeholder="Email"
+                          class="form-control"
+                          style="border: none"
+                        />
+                        <hr />
+                        <input
+                          type="tel"
+                          placeholder="Phone"
+                          class="form-control"
+                          style="border: none"
+                        />
+                        <hr />
+                        <select
+                          name="current_status"
+                          required=""
+                          class="form-select rounded-0 mb-3"
+                        >
+                          <option selected="true" disabled="disabled">
+                            Select Course interested in
+                          </option>
+                          <option>
+                            Data Science 
+                          </option>
+                          <option>
+                            Python Django 
+                          </option>
+                          <option>Software Testing Specialist</option>
+                          <option>
+                            MEARN Stack 
+                          </option>
+                          <option>Business Analytics </option>
+                          <option>
+                             Flutter
+                          </option>
+                          
+                        </select>
+                        <input
+                          type="text"
+                          placeholder="City"
+                          class="form-control"
+                          style="border: none"
+                        />
+                        <hr />
+                        <textarea
+                          name="comment"
+                          id="comment"
+                          cols="30"
+                          rows="10"
+                          placeholder="Comment"
+                          class="form-control mb-3"
+                          style="border: none"
+                        ></textarea>
+                        <button
+                          type="submit"
+                          class="btn2 btn-primary rounded-5"
+                        
+                        >
+                          SUBMIT
+                        </button>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+</body>
+</html>

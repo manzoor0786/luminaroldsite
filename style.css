@@ -1,0 +1,91 @@
+
+  
+      h1{
+      
+
+        text-align: left;
+        margin-bottom: 50px;
+        font-size: 50px;    
+      
+      }
+      
+        
+
+.btn1 {
+  background-color:rgb(80, 96, 112);
+  border-radius: 50px;
+  border: 0;
+  box-shadow: rgba(158, 146, 137, 0.5) 0 -1px 3px 0 inset,rgba(194, 14, 14, 0.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: rgb(238, 238, 238);
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.btn1:hover {
+  background-color: #5e068a;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .btn1 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+
+.btn2 {
+    background-color: rgb(80, 96, 112);
+    border-radius: 50px;
+    border: 0;
+    box-shadow: rgba(158, 146, 137, 0.5) 0 -1px 3px 0 inset,rgba(194, 14, 14, 0.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  }
+  
+  .btn2:hover {
+    background-color: #5e068a;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .btn2 {
+      padding: 16px 44px;
+      min-width: 150px;
+    }
+  }
+  p{
+    text-align: start;
+  }
